@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulir Pendaftaran</title>
+    <LINK rel="stylesheet" type="text/css" href="efekpendaftaran.css">
+</head>
+
+<body>
+    <form method="post" action="">
+        <h2 align="center">Formulir Pendaftaran</h2>
+
+        <table border="1" align="center" width="60%" height="60%">
+
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+
+            <tr>
+                <td>Password</td>
+                <td>:</td>
+                <td><input type="password" name="password"></td>
+            </tr>
+
+            <tr>
+                <td>Tanggal Lahir</td>
+                <td>:</td>
+                <td>
+                    <input type="text" size="2"> /
+                    <input type="text" size="2"> /
+                    <input type="text" size="4">
+                    (hh/bb/tttt)
+                </td>
+            </tr>
+
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" name="jk"> Laki-Laki
+                    <input type="radio" name="jk"> Perempuan
+                </td>
+            </tr>
+
+            <tr>
+                <td>Jurusan</td>
+                <td>:</td>
+                <td>
+                    <select>
+                        <option>RPL</option>
+                        <option>DKV</option>
+                        <option>Animasi</option>
+                        <option>TKJ</option>
+                        <option>Teknik Mekatronika</option>
+                        <option>Teknik Grafika</option>
+                        <option>Teknik Logistik</option>
+                        <option>Perhotelan</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Hobby</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox"> Playing Game
+                    <input type="checkbox"> Traveling
+                    <input type="checkbox"> Swimming
+                    <br>
+                    <input type="checkbox"> Music
+                    <input type="checkbox"> Adventure
+                    <input type="checkbox"> Lainnya
+                </td>
+            </tr>
+
+            <tr>
+                <td>Alamat</td>
+                <td>:</td>
+                <td>
+                    <textarea rows="6" cols="35"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3" align="center">
+                    <input type="submit" value="Kirim">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>

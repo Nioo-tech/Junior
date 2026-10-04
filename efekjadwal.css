@@ -1,0 +1,22 @@
+body {
+    background-color: #820000;
+}
+caption {
+    background-color: #820000;
+    color: #fff;
+    font-family: Arial;
+}
+table {
+    background-color: rgb(26, 0, 0);
+    color: #fff;
+}
+th {
+    background-color: rgb(26, 0, 0);
+    color: #fff;
+    font-family: Arial;
+}
+td {
+    background-color: rgb(26, 0, 0);
+    color: #fff;
+    font-family: Arial;
+}

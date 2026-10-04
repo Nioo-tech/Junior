@@ -1,0 +1,13 @@
+body {
+    h2 {
+        background-color: aquamarine;
+        color: #fff;
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+    }
+    table {
+        background-color: rgb(123, 255, 185);
+        font-family: 'Times New Roman', Times, serif;
+        font-style: normal;
+    }
+}
